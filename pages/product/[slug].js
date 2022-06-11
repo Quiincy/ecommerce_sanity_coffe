@@ -29,11 +29,13 @@ const ProductDetails = ({ product, products }) => {
             <img
               src={urlFor(image && image[index])}
               className="product-detail-image"
+              alt=""
             />
           </div>
           <div className="small-images-container">
             {image?.map((item, i) => (
               <img
+                alt=""
                 key={i}
                 src={urlFor(item)}
                 className={
