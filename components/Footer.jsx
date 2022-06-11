@@ -7,8 +7,8 @@ const Footer = () => {
         <div className='footer-container'>
             <p>2022 Broadway Coffee All rights reserved</p>
             <p className='icons'>
-                <a href="https://www.instagram.com/coffee_broadway_/" target="_blank"><AiFillInstagram /></a>
-                <a href="https://www.facebook.com/BroadwayCoffeeVerbitskogo/" target="_blank"><AiFillFacebook /></a>
+                <a href="https://www.instagram.com/coffee_broadway_/" target="_blank" rel="noreferrer"><AiFillInstagram /></a>
+                <a href="https://www.facebook.com/BroadwayCoffeeVerbitskogo/" target="_blank" rel="noreferrer"><AiFillFacebook /></a>
             </p>
         </div>
     )

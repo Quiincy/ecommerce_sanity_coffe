@@ -27,6 +27,7 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
                         width={300}
                         height={400}
                         top={150}
+                        alt="helvetiya"
                     />
                 </div>
             </div>
