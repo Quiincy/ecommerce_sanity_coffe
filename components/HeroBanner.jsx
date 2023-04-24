@@ -11,10 +11,10 @@ const HeroBanner = ({ heroBanner }) => {
                 <h3>{heroBanner.midText}</h3>
                 <h1>{heroBanner.product}</h1>
 
-                <img src={urlFor(heroBanner.image)} alt="headphones" className='hero-banner-image' />
+                <img src={urlFor(heroBanner.image)} alt="amarillocoffee" className='hero-banner-image' />
             </div>
             <div>
-                <Link href={`/product/${heroBanner.product}`}>
+                <Link href='https://ecommerce-sanity-coffe.vercel.app/product/khelveti'>
                     <button type='button'>{heroBanner.buttonText}</button>
                 </Link>
                 <div className='desc'>
